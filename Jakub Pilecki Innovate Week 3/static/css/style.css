@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Parisienne&family=Permanent+Marker&family=Satisfy&display=swap');
+
+/*  FONT COMMANDS FOR PROJRCT 
+
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+*/
+
+
+
+body {
+    background-color: white;
+    text-align: center;
+    align-items:center;
+    size-adjust:inherit;
+    justify-content: space-evenly;
+    margin: 0.5%;    
+    padding: 0.2% 0.5%;
+}
+
+.headers{
+    font-family: 'Satisfy', cursive;
+    font-size: 6vw;
+    size-adjust:inherit;
+    
+
+}
+
+
+.highlight:hover{
+    color:rgb(11, 135, 224);
+    font-weight:bolder;
+    font-size:3vw;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.highlight{
+    color:rgb(3, 5, 1);
+    font-family: 'Satisfy', cursive;
+    font-size: 2vw;
+    size-adjust:inherit;
+
+}
+
+.highlight .dark-mode{
+    color:rgb(255, 255, 255);
+    font-family: 'Satisfy', cursive;
+    font-size: 2vw;
+    size-adjust:inherit;}
+
+.nav{
+    color:rgb(3, 5, 1);
+    font-family: 'Satisfy', cursive;
+    size-adjust:inherit;
+    font-size: 4vw;
+
+}
+
+.nav .dark-mode{
+    color:rgb(254, 255, 254);
+    background-color:rgba(60, 60, 184, 0.964);
+    font-family: 'Satisfy', cursive;
+    size-adjust:inherit;
+    font-size: 4vw;
+
+}
+
+.hidden {
+        display:none;
+    }
+
+
+
+
+.dmb{
+    color:rgb(5, 5, 19, 0.964);
+    font-family: 'Lobster', cursive;
+    font-size: 1.5vw;
+    size-adjust:inherit;
+    align-items:baseline;
+    float:right;
+    border:solid 2px rgb(244, 244, 244);
+    border-radius: 10px; 
+
+}
+
+.dmb:hover{
+    background-color: black;
+    color:rgb(254, 254, 254);
+    font-weight:normal;
+    font-size:2vw;
+    font-family:'Lobster', cursive;
+
+}
+
+
+
+.dark-mode .dmb {
+    color: black;
+    border:solid 2px rgb(black);
+    border-radius: 10px; 
+}
+
+.dark-mode .dmb:hover {
+    background-color: white;
+    color: black;
+    border:solid 2px rgb(black);
+    border-radius: 10px; 
+  }
+
+  .navbar-nav{
+    background-color: (5, 5, 19, 0.964);
+  }
+
+
+.navbar-toggler{
+    align-items:center;
+    float:left;
+    justify-content: space-evenly;
+}
+
+
+.container-fluid{
+    align-items:center;
+    float:right;
+    justify-content: space-evenly;
+
+}
+
+
+
+.container-fluid .dark-mode {
+    background-color: black;
+    border-color:black;
+}
+
+#navul{
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr)
+}
+
+.movingpics{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+#carouselExampleDark .carousel-item img {
+    object-fit:contain;
+    object-position: center;
+    height: 80vh;
+    width: 80vh;
+    overflow: hidden;
+}
+
+.grid{
+    display: flex;
+    min-height: 70vh;
+    
+    flex-direction:column;
+
+    justify-content: center; 
+
+    align-items:center; 
+    
+    flex-grow:1; 
+
+    justify-content: space-evenly; 
+}
+
+.box{
+    width: 15%;}
+
+
+
+.product {
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items:center; 
+    flex-grow:1; 
+    
+    /* border:solid 4px rgb(244, 244, 244); */
+    overflow:hidden;
+    max-block-size: 15%;
+    background: rgba(255, 254, 254, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    border: 1px solid rgba(255, 254, 254, 0.05);
+
+    }
+
+
+
+.product img {
+    object-position: center;
+    width: 75%;
+    height: 100%;
+
+}
+
+.carousel-caption{
+    color:red;
+}
+
+
+.carousel-item{
+    justify-content: center; 
+    align-items:center; 
+
+}
+
+#navul .dark-mode{
+    background-color:rgba(5, 5, 19, 0.964);
+    align-items: center;
+    flex-grow: 1;
+}
+
+.contact{
+    font-family: 'Courgette', cursive;
+    font-size: 3vw;
+    size-adjust:inherit;
+    
+
+}
+
+
+.productimg{
+    height: 75%;
+}
+
+.productdiscription{
+    block-size:20%;
+    height: 30%;
+    font-size:2%;
+    padding: 0.1 0.1 0.1 0.1;
+    margin-bottom: 1px;
+    font:initial;
+    object-fit:fill;
+    min-inline-size: 0.01%;
+
+}
+
+
+p {
+    margin-bottom: 0.1px;
+}
+
+.product{
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin:1%;
+    width:22%;
+}
+
+.navbar ul{
+    flex: 1;
+}
+
+.dark-mode .navbar-toggler-icon{
+    color:antiquewhite
+
+}
+
+.dark-mode{
+    background-color: rgba(5, 5, 19, 0.964);
+    color:antiquewhite;
+    
+}
+.dark-mode a{
+    color:antiquewhite;
+}
+
+.dark-mode p{
+    color:antiquewhite;
+    background-color: rgba(0, 0, 0, 0.613);
+
+}
+
+.dark-mode h5{
+    color:antiquewhite;
+    background-color: rgba(0, 0, 0, 0.613);
+
+}
+.dark-mode .carousel-item{
+    color: antiquewhite;
+}
+
+.dark-mode .container-fluid{
+    background-color:(5, 5, 19, 0.964);
+}
+
+.dark-mode .dropdown-menu{
+    background-color: black;
+}
+
+.navbar-expand-lg{
+  flex:none;
+  display: block;
+}
+
+
+.banner{
+  text-align: center;
+  align-items:center;
+  width: 20vw;
+  
+}
+
+
+
+@media (max-width:1400px) {
+    /* body{
+    } */
+    /* row-cols-4{
+        row-cols-3
+    } */
+    .row{
+        flex-direction:row;
+
+    }
+    .product{
+        width:46%;
+    }
+    
+    .headers{
+      font-size: 10vw;}   
+    
+        
+}

@@ -1,0 +1,30 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="headers">Music</h1>
+
+<div class="container">
+    <div class="row row-cols-4">
+        
+        <div class="col product">
+           <div class="productimg"><img src="{{url_for("static", filename="images/cd1.png")}}" alt="T-Shirt 1 Photo"></div>
+            <div class="productdiscription"><p>Album A (CD)</p><p>Price: 15£</p></div>
+        </div>
+        <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/vinyl1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Album A (Vinyl)</p><p>Price: 25£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/cd1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Album B (CD)</p><p>Price: 15£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/vinyl1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Album B (Vinyl)</p><p>Price: 25£</p></div>
+         </div>
+
+
+    </div>
+</div>
+
+{% endblock %}

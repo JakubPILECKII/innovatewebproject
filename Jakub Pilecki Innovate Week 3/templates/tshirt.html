@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="headers">T-shirts</h1>
+<div class="container">
+    <div class="row row-cols-4">
+        <div class="col product">
+           <div class="productimg"><img src="{{url_for("static", filename="images/tshirt1.png")}}" alt="T-Shirt 1 Photo"></div>
+            <div class="productdiscription"><p>Model 1</p><p>Price: 15£</p></div>
+        </div>
+        <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 1</p><p>Price: 15£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 1</p><p>Price: 15£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 1</p><p>Price: 15£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt2.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 2</p><p>Price: 25£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/shirt.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 3</p><p>Price: 30£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt1.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 1</p><p>Price: 15£</p></div>
+         </div>
+         <div class="col product">
+            <div class="productimg"><img src="{{url_for("static", filename="images/tshirt2.png")}}" alt="T-Shirt 1 Photo"></div>
+             <div class="productdiscription"><p>Model 2</p><p>Price: 25£</p></div>
+         </div>
+        
+    </div>
+</div>
+{% endblock %}
